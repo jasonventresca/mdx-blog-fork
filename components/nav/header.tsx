@@ -1,8 +1,6 @@
 import React from "react";
-import AuthComponent from "./auth-component";
 import NavComponent from "./nav-component";
 import { AdminButtons } from "./admin-component";
-import { isDevMode } from "@/lib/utils/is-dev-mode";
 
 function Header() {
   return (
@@ -11,7 +9,6 @@ function Header() {
         <NavComponent />
         <div className="flex items-center gap-4">
           <AdminButtons />
-          {isDevMode() && <AuthComponent />}
         </div>
       </div>
     </header>
