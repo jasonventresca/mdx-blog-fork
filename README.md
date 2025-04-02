@@ -1,5 +1,13 @@
-Mdx blog based on Supabase Auth Template
+Jason Ventresca's fork of Mdx blog based on Supabase Auth Template
 
+## Key Changes introduced by Jason Ventresca
+
+- The `main` branch is pretty much the same; but I've upgraded the version of Next.js to remediate a critical vulnerability (1 Apr 2025). Note that you'll have to set up Supabase to get it working, which I haven't tried yet. See branch below.
+
+- The `removing-contact-form-and-supabase-etc` branch actually works without setting up a Supabase account, creating the necessary tables, etc. The additional changes introduced in this branch were basically gutting the Auth (login), Contact form and the LikeButton from the app, so that there's no functionality that tries to query Supabase.
+
+
+## Original README from forked repo below
 npx create-next-app -e with-supabase
 
 MDXBlog has been updated to incorporate the latest features of **Next.js 15**. The new release focuses on performance, security, and modern development capabilities.
