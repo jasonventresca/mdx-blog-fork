@@ -5,7 +5,6 @@ import path from "node:path";
 import fs from "node:fs";
 //
 import RelatedPostsList from "@/components/posts/related-posts";
-import LikeButton from "@/components/like/like-button";
 import EditPostButton from "@/components/posts/edit-post-button";
 import OpenInCursor from "@/components/posts/open-in-cursor-button";
 import { isDevMode } from "@/lib/utils/is-dev-mode";
@@ -114,7 +113,6 @@ export default async function Blog({ params }: Props) {
           <RelatedPostsList relatedSlugs={metadata?.relatedPosts} />
         </div>
       </div>
-      <LikeButton postId={metadata?.id} />
     </div>
   );
 }
