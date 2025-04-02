@@ -28,7 +28,7 @@ export default async function PopularPostsPage() {
 
   return (
     <div className="py-4">
-      <h1 className="text-4xl font-black mb-8">Popular Posts</h1>
+      <h2 className="text-3xl font-black pb-4 w-full">Popular Posts</h2>
       <ul className="flex flex-col gap-8">
         {result.data?.map((post) => (
           <li key={post.id} className="border-none sm:border rounded-lg py-2">
