@@ -1,5 +1,13 @@
 Jason Ventresca's fork of Mdx blog based on Supabase Auth Template
 
+## How to use create a new project from this repo
+1. `git clone <this-repo> new-repo-name>`
+2. `cd new-repo-name`
+3. `git remote remove origin`
+4. `# Go to github.com and create the corresponding new repo there.`
+5. `git remote add origin <new-github-repo-origin`
+6. `git push -u origin main`
+
 ## Key Changes introduced by Jason Ventresca
 
 - The `main` branch is pretty much the same; but I've upgraded the version of Next.js to remediate a critical vulnerability (1 Apr 2025). Note that you'll have to set up Supabase to get it working, which I haven't tried yet. See branch below.
