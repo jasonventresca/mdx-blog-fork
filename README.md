@@ -14,6 +14,8 @@ Jason Ventresca's fork of Mdx blog based on Supabase Auth Template
 
 - The `removing-contact-form-and-supabase-etc` branch actually works without setting up a Supabase account, creating the necessary tables, etc. The additional changes introduced in this branch were basically gutting the Auth (login), Contact form and the LikeButton from the app, so that there's no functionality that tries to query Supabase.
 
+- The `remove-supabase-but-keep-contact-form-via-formsubmit-co` branch also works without setting up a Supabase account. In contrast to the aforementioned branch, it preserves the Contact form's functionality, by retrofitting it to use formsubmit.co, which is easier to set up, requires zero maintenance, and is also free to use.
+
 ### Notes from learning the hard way
 
 - Run `npm run prebuild` to regenerate the posts cache. This should be done after blog posts are added/removed.
