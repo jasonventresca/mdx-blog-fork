@@ -5,9 +5,6 @@ import path from "node:path";
 import fs from "node:fs";
 //
 import RelatedPostsList from "@/components/posts/related-posts";
-import EditPostButton from "@/components/posts/edit-post-button";
-import OpenInCursor from "@/components/posts/open-in-cursor-button";
-import { isDevMode } from "@/lib/utils/is-dev-mode";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -100,12 +97,6 @@ export default async function Blog({ params }: Props) {
           </h1>
           <p className="pt-6 text-xl sm:text-lg">By {metadata?.author}</p>
         </div>
-        {isDevMode() && (
-          <div className="flex gap-2 mb-4">
-            <EditPostButton slug={slug} />
-            <OpenInCursor path={slug} />
-          </div>
-        )}
         <Content />
       </article>
       <div>

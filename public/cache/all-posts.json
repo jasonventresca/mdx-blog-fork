@@ -230,28 +230,6 @@
     "likes": 0
   },
   {
-    "slug": "creating-custom-components-for-mdx",
-    "id": "2f6d955b-055c-4b88-b710-328480013641",
-    "type": "blog",
-    "title": " Creating Custom Components for MDX",
-    "author": "O Wolfson",
-    "publishDate": "2024-01-03",
-    "description": "In this article, we'll explore how to create and use custom React components within MDX.",
-    "categories": [
-      "Web Development"
-    ],
-    "tags": [
-      "mdx",
-      "custom",
-      "components"
-    ],
-    "modifiedDate": "2024-08-23",
-    "image": null,
-    "draft": false,
-    "relatedPosts": [],
-    "likes": 0
-  },
-  {
     "slug": "custom-link-component-for-external-navigation",
     "id": "98ee2f7c-24df-43ae-b5fa-febfdc54937a",
     "type": "blog",
@@ -440,31 +418,6 @@
     "draft": false,
     "relatedPosts": [
       "creating-custom-components-for-mdx"
-    ],
-    "likes": 0
-  },
-  {
-    "slug": "integrating-dynamic-components-in-mdx-files-in-nextjs-14",
-    "id": "4b00a21f-c4c5-478c-b935-667dd76c8fa1",
-    "type": "blog",
-    "title": "Integrating Dynamic Components in MDX Files in Next.js 14",
-    "author": "O Wolfson",
-    "publishDate": "2024-09-02",
-    "description": "One of the standout features of MDX (Markdown with JSX) in Next.js 14 is its ability to blend static content with dynamic components.",
-    "categories": [
-      "Web Development"
-    ],
-    "tags": [
-      "mdx",
-      "custom",
-      "components"
-    ],
-    "modifiedDate": "2024-08-31T23:06:52.057Z",
-    "image": null,
-    "draft": false,
-    "relatedPosts": [
-      "using-and-styling-custom-components-in-mdx-content",
-      "import-components-to-mdx"
     ],
     "likes": 0
   },
