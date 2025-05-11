@@ -1,5 +1,16 @@
 Jason Ventresca's fork of Mdx blog based on Supabase Auth Template
 
+## How to contribute to MDXBlog (original project) from this repo
+1. `git checkout owolfdev` # this branch has the vanilla contents of upstream (MDXBlog)
+2. `git remote` # there should be a remote for the upstream repo (owolfdev/mdxblog)
+3. `git fetch owolfdev` # this is fetching the *remote*, not the *branch*
+4. `git merge owolfdev/main` # update branch from upstream remote's main branch
+5. `git checkout -b <new-feature-branch-name>`
+6. implement your changes
+7. `git push origin <new-feature-branch-name>`
+8. create a PR on github to merge into `owolfdev/mdx-blog:main` from `jasonventresca/mdx-blog-fork:<new-feature-branch-name>`.
+
+
 ## How to use create a new project from this repo
 1. `git clone <this-repo> new-repo-name>`
 2. `cd new-repo-name`
